@@ -1,8 +1,38 @@
 body {
-    background: #37373a;
-    color: white;
+    background: white;
+    font-family: "Roboto Condensed";
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    background-image: url("../images/cartoon-drawing.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
+img{
+    max-width: 100%;
+    height: auto;
+}
+a:hover {
+    text-decoration: underline
+}
+li{
+    max-width: 375px;
+}
 h1 {
-    color: #888898;
+    color: #5a43ba;
+    border-color: burlywood;
+}
+#Formation{
+    text-decoration: underline;
+    color: deeppink;
+
+}
+#Compétence{
+    text-decoration: underline;
+    color: cadetblue;
+}
+#Experience{
+    text-decoration: underline;
+    color: #a75658;
 }
