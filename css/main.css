@@ -1,38 +1,55 @@
 body {
-    background: white;
-    font-family: "Roboto Condensed";
-    color: black;
+    background: black;
+    font-family: Oswald, sans-serif;
+    font-weight: 100;
+    color: white;
     font-size: 1.2rem;
     line-height: 1.3rem;
-    background-image: url("../images/cartoon-drawing.png");
+    background-image: url("../images/Plain-Dark-Grey-Background.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
+    text-align: center;
 }
-img{
-    max-width: 100%;
+
+img {
+    max-width: 35%;
     height: auto;
 }
+
+footer {
+    max-width: 35%;
+    height: auto;
+
+}
+
 a:hover {
     text-decoration: underline
 }
-li{
+
+li {
+    list-style-position: inside;
     max-width: 375px;
 }
+
 h1 {
+    text-align: center;
     color: #5a43ba;
     border-color: burlywood;
 }
-#Formation{
+
+#Formation {
     text-decoration: underline;
-    color: deeppink;
+    color: crimson;
 
 }
-#Compétence{
+
+#Compétence {
     text-decoration: underline;
-    color: cadetblue;
+    color: crimson;
 }
-#Experience{
+
+#Experience {
     text-decoration: underline;
-    color: #a75658;
+    color: crimson;
 }
