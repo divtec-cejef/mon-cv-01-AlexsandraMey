@@ -1,4 +1,5 @@
 body {
+    text-align: center;
     background: black;
     font-family: Oswald, sans-serif;
     font-weight: 100;
@@ -7,11 +8,17 @@ body {
     line-height: 1.3rem;
     background-image: url("../images/Plain-Dark-Grey-Background.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
 }
 
+td {
+    border: 1px solid whitesmoke;
+}
+
+table {
+    border-collapse: collapse;
+}
 img {
     max-width: 35%;
     height: auto;
@@ -33,7 +40,6 @@ li {
 }
 
 h1 {
-    text-align: center;
     color: #5a43ba;
     border-color: burlywood;
 }
